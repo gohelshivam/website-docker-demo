@@ -14,7 +14,7 @@ pipeline {
     stages {  
         stage('Checkout') {  
             steps {  
-                git branch: 'master', url: 'https://github.com/gohelshivam/website-docker-demo.git'  
+                git branch: 'main', url: 'https://github.com/gohelshivam/website-docker-demo.git'  
             }  
         }  
   
